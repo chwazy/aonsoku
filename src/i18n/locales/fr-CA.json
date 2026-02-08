@@ -740,5 +740,17 @@
     "clear": "Vider la file d'attente",
     "close": "Fermer la file d'attente",
     "open": "Ouvrir la file d'attente"
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

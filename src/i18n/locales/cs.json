@@ -11,6 +11,7 @@
     "library": "Knihovna",
     "songs": "Skladby",
     "albums": "Alba",
+    "genres": "Genres",
     "favorites": "Oblíbené",
     "playlists": "Playlisty",
     "emptyPlaylist": "Zatím nebyly vytvořeny žádné playlisty",
@@ -479,5 +480,17 @@
     "emptyPage": {
       "message": "Nebyly přidány žádné podcasty"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

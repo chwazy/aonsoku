@@ -14,6 +14,7 @@
     "radios": "电台",
     "emptyPlaylist": "还没有创建播放列表",
     "albums": "专辑",
+    "genres": "Genres",
     "favorites": "收藏夹",
     "search": "搜索…",
     "miniSearch": "搜索",
@@ -721,5 +722,17 @@
         "goToPodcasts": "前往播客"
       }
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

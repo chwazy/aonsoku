@@ -13,6 +13,7 @@
     "artists": "Artistas",
     "songs": "Canciones",
     "albums": "Álbumes",
+    "genres": "Genres",
     "favorites": "Favoritos",
     "playlists": "Listas de reproducción",
     "radios": "Radios",
@@ -718,5 +719,17 @@
       }
     },
     "label": "Configuración"
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

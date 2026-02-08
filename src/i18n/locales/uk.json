@@ -49,7 +49,7 @@
     "artists": "Виконавці",
     "songs": "Пісні",
     "albums": "Альбоми",
-    "playlists": "Списки відтворення",
+    "genres": "Genres",    "playlists": "Списки відтворення",
     "radios": "Радіо",
     "podcasts": "Подкасти",
     "emptyPlaylist": "Ще не було створено жодного списку відтворення"
@@ -81,5 +81,17 @@
     "nuclear-dark": "Атомні сутінки",
     "achiever": "Achiever",
     "dracula": "Dracula"
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

@@ -25,6 +25,7 @@ import { ROUTES } from '@/routes/routesList'
 const BaseLayout = lazy(() => import('@/app/layout/base'))
 const Album = lazy(() => import('@/app/pages/albums/album'))
 const AlbumsList = lazy(() => import('@/app/pages/albums/list'))
+const GenresList = lazy(() => import('@/app/pages/genres/list'))
 const Artist = lazy(() => import('@/app/pages/artists/artist'))
 const ArtistsList = lazy(() => import('@/app/pages/artists/list'))
 const ErrorPage = lazy(() => import('@/app/pages/error-page'))
@@ -86,6 +87,16 @@ export const router = createHashRouter([
         element: (
           <Suspense fallback={<AlbumsFallback />}>
             <AlbumsList />
+          </Suspense>
+        ),
+      },
+      {
+        id: 'genres',
+        path: ROUTES.LIBRARY.GENRES,
+        errorElement: <ErrorPage />,
+        element: (
+          <Suspense fallback={<AlbumsFallback />}>
+            <GenresList />
           </Suspense>
         ),
       },

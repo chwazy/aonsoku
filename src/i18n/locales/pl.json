@@ -201,7 +201,7 @@
     "library": "Biblioteka",
     "songs": "Utwory",
     "albums": "Albumy",
-    "radios": "Radia",
+    "genres": "Genres",    "radios": "Radia",
     "podcasts": "Podcasty",
     "miniSearch": "Wyszukiwanie",
     "artists": "Wykonawcy",
@@ -755,5 +755,17 @@
   "warnings": {
     "songError": "Nie można odtworzyć piosenki, sprawdź Serwer!",
     "reload": "Piosenka jest odtwarzana!\nCzy na pewno chcesz odświeżyć stronę?"
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

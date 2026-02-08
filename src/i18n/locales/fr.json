@@ -131,6 +131,7 @@
     "home": "Accueil",
     "songs": "Titres",
     "albums": "Albums",
+    "genres": "Genres",
     "favorites": "Favoris",
     "miniSearch": "Recherche",
     "library": "Bibliothèque",
@@ -749,5 +750,17 @@
       "started": "La mise à jour a commencé.",
       "error": "L'installation de la mise à jour a échoué. Veuillez la télécharger directement depuis GitHub."
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

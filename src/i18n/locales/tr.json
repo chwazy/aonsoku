@@ -13,7 +13,7 @@
     "artists": "Sanatçılar",
     "songs": "Şarkılar",
     "albums": "Albümler",
-    "playlists": "Çalma Listeleri",
+    "genres": "Genres",    "playlists": "Çalma Listeleri",
     "radios": "Radyo İstasyonları",
     "podcasts": "Podcastler",
     "emptyPlaylist": "Henüz çalma listesi oluşturulmadı"
@@ -727,5 +727,17 @@
       "y": "1 yıl",
       "yy": "%d yıl"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

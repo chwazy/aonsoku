@@ -13,6 +13,7 @@
     "artists": "Artists",
     "songs": "Songs",
     "albums": "Albums",
+    "genres": "Genres",
     "favorites": "Favorites",
     "playlists": "Playlists",
     "radios": "Radios",
@@ -746,5 +747,17 @@
       "y": "1 year",
       "yy": "%d years"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

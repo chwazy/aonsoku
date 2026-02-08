@@ -6,6 +6,7 @@ const LIBRARY = {
   ARTISTS: '/library/artists',
   SONGS: '/library/songs',
   ALBUMS: '/library/albums',
+  GENRES: '/library/genres',
   FAVORITES: '/library/favorites',
   PLAYLISTS: '/library/playlists',
   PODCASTS: '/library/podcasts',

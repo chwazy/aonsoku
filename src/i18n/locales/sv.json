@@ -6,6 +6,7 @@
     "search": "Sök…",
     "miniSearch": "Sök",
     "albums": "Album",
+    "genres": "Genres",
     "favorites": "Favoriter",
     "playlists": "Spellista",
     "songs": "Sånger",
@@ -546,5 +547,17 @@
       "y": "1 år",
       "yy": "%d år"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

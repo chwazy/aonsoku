@@ -16,6 +16,7 @@
     "radios": "Радио",
     "miniSearch": "Поиск",
     "albums": "Альбомы",
+    "genres": "Genres",
     "favorites": "Избранное",
     "playlists": "Плейлисты",
     "songs": "Треки",
@@ -741,5 +742,17 @@
         "group": "Статус в Discord"
       }
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

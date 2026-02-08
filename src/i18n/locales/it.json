@@ -10,7 +10,7 @@
     "home": "Home",
     "search": "Cerca…",
     "albums": "Album",
-    "songs": "Brani",
+    "genres": "Genres",    "songs": "Brani",
     "podcasts": "Podcast",
     "emptyPlaylist": "Nessuna playlist creata",
     "miniSearch": "Cerca",
@@ -741,5 +741,17 @@
       "y": "Un anno",
       "yy": "%d anni"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

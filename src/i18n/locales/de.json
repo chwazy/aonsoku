@@ -8,6 +8,7 @@
     "artists": "Künstler",
     "songs": "Lieder",
     "albums": "Alben",
+    "genres": "Genres",
     "favorites": "Favoriten",
     "playlists": "Wiedergabelisten",
     "emptyPlaylist": "Noch keine Wiedergabelisten erstellt",
@@ -727,5 +728,17 @@
       "description": "Es sieht so aus, als noch keine Podcasts hinzugefügt wurden. Füge oberhalb einen hinzu!",
       "message": "Kein Podcast hinzugefügt"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

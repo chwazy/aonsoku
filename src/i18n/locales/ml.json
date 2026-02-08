@@ -7,6 +7,18 @@
     "miniSearch": "തിരയുക",
     "songs": "ഗാനങ്ങൾ",
     "albums": "ആൽബങ്ങൾ",
-    "playlists": "പ്ലേലിസ്റ്റുകൾ"
+    "genres": "Genres",    "playlists": "പ്ലേലിസ്റ്റുകൾ"
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

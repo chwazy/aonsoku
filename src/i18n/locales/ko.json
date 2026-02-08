@@ -31,7 +31,7 @@
     "artists": "아티스트",
     "songs": "곡",
     "albums": "앨범",
-    "playlists": "재생목록",
+    "genres": "Genres",    "playlists": "재생목록",
     "radios": "라디오",
     "podcasts": "팟캐스트",
     "emptyPlaylist": "생성된 재생목록 없음",
@@ -721,5 +721,17 @@
       "error": "서버와의 통신에 실패했습니다!",
       "success": "서버가 저장되었습니다!"
     }
+  },
+  "genre": {
+    "list": {
+      "empty": {
+        "title": "No genres found",
+        "info": "We couldn't find any genres to show.",
+        "action": "Try adjusting your search."
+      }
+    }
   }
 }
+
+
+

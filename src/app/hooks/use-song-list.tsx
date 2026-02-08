@@ -35,9 +35,18 @@ export function useSongList() {
     return songs.song
   }
 
+  async function getGenreSongs(genre: string) {
+    const songs = await subsonic.songs.getSongsByGenre({ genre })
+
+    if (!songs || songs.length === 0) return undefined
+
+    return songs
+  }
+
   return {
     getArtistSongCount,
     getArtistAllSongs,
     getAlbumSongs,
+    getGenreSongs,
   }
 }
