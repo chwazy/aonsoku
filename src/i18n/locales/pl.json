@@ -757,6 +757,10 @@
     "reload": "Piosenka jest odtwarzana!\nCzy na pewno chcesz odświeżyć stronę?"
   },
   "genre": {
+    "headline": "Genre",
+    "details": {
+      "noSongList": "This genre does not have any songs."
+    },
     "list": {
       "empty": {
         "title": "No genres found",
@@ -766,6 +770,3 @@
     }
   }
 }
-
-
-

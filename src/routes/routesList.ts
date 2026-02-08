@@ -19,6 +19,11 @@ const ARTIST = {
   PATH: `${LIBRARY.ARTISTS}/:artistId`,
 }
 
+const GENRE = {
+  PAGE: (genre: string) => `${LIBRARY.GENRES}/${encodeURIComponent(genre)}`,
+  PATH: `${LIBRARY.GENRES}/:genre`,
+}
+
 const ALBUM = {
   PAGE: (albumId: string) => `${LIBRARY.ALBUMS}/${albumId}`,
   PATH: `${LIBRARY.ALBUMS}/:albumId`,
@@ -72,6 +77,7 @@ const SERVER_CONFIG = '/server-config'
 export const ROUTES = {
   LIBRARY,
   ARTIST,
+  GENRE,
   ALBUM,
   ALBUMS,
   SONGS,

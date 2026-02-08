@@ -7,6 +7,12 @@ type SongSearchParams = Required<
   Pick<SearchQueryOptions, 'query' | 'songCount' | 'songOffset'>
 >
 
+type GenreSongsParams = {
+  genre: string
+  songCount: number
+  songOffset: number
+}
+
 export async function songsSearch(params: SongSearchParams) {
   const response = await subsonic.search.get({
     artistCount: 0,
@@ -24,6 +30,26 @@ export async function songsSearch(params: SongSearchParams) {
 
   return {
     songs: response.song,
+    nextOffset,
+  }
+}
+
+export async function getGenreSongsPage(params: GenreSongsParams) {
+  const response = await subsonic.songs.getSongsByGenre({
+    genre: params.genre,
+    count: params.songCount,
+    offset: params.songOffset,
+  })
+
+  if (!response || response.length === 0) return emptyResponse
+
+  let nextOffset: number | null = null
+  if (response.length >= params.songCount) {
+    nextOffset = params.songOffset + params.songCount
+  }
+
+  return {
+    songs: response,
     nextOffset,
   }
 }

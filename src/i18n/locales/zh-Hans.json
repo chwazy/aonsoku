@@ -155,8 +155,6 @@
         "title": "哎呀，这里没有专辑！"
       },
       "genre": {
-        "search": "查找一个流派…",
-        "notFound": "没有找到流派。",
         "label": "选择一个流派…",
         "loading": "加载流派中…"
       },
@@ -724,6 +722,10 @@
     }
   },
   "genre": {
+    "headline": "Genre",
+    "details": {
+      "noSongList": "This genre does not have any songs."
+    },
     "list": {
       "empty": {
         "title": "No genres found",
@@ -733,6 +735,3 @@
     }
   }
 }
-
-
-

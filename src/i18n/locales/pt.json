@@ -718,6 +718,10 @@
     }
   },
   "genre": {
+    "headline": "Genre",
+    "details": {
+      "noSongList": "This genre does not have any songs."
+    },
     "list": {
       "empty": {
         "title": "No genres found",
@@ -727,6 +731,3 @@
     }
   }
 }
-
-
-

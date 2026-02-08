@@ -10,6 +10,10 @@
     "genres": "Genres",    "playlists": "പ്ലേലിസ്റ്റുകൾ"
   },
   "genre": {
+    "headline": "Genre",
+    "details": {
+      "noSongList": "This genre does not have any songs."
+    },
     "list": {
       "empty": {
         "title": "No genres found",
@@ -19,6 +23,3 @@
     }
   }
 }
-
-
-

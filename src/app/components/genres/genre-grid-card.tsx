@@ -3,6 +3,7 @@ import { memo, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import { PreviewCard } from '@/app/components/preview-card/card'
 import { useSongList } from '@/app/hooks/use-song-list'
+import { ROUTES } from '@/routes/routesList'
 import { usePlayerActions } from '@/store/player.store'
 import { Genre } from '@/types/responses/genre'
 
@@ -34,31 +35,18 @@ function GenreCard({ genre }: GenreCardProps) {
   const countsLabel = countParts.join(' • ')
 
   return (
-    <PreviewCard.Root
-      className="flex flex-col w-full h-full"
-      role="button"
-      tabIndex={0}
-      onClick={handlePlayGenre}
-      onKeyDown={(event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault()
-          handlePlayGenre()
-        }
-      }}
-    >
-      <div className="group flex-1 aspect-square rounded bg-border relative overflow-hidden">
+    <PreviewCard.Root className="flex flex-col w-full h-full">
+      <PreviewCard.ImageWrapper link={ROUTES.GENRE.PAGE(genre.value)}>
         <div className="absolute inset-0 bg-gradient-to-br from-muted/60 to-muted" />
         <div className="absolute inset-0 flex items-center justify-center">
           <TagIcon className="size-10 text-muted-foreground/70" />
         </div>
         <PreviewCard.PlayButton onClick={handlePlayGenre} />
-      </div>
+      </PreviewCard.ImageWrapper>
       <PreviewCard.InfoWrapper>
-        <div className="w-full truncate" data-testid="card-title">
-          <span className="max-w-full truncate leading-7 text-sm font-semibold">
-            {genre.value}
-          </span>
-        </div>
+        <PreviewCard.Title link={ROUTES.GENRE.PAGE(genre.value)}>
+          {genre.value}
+        </PreviewCard.Title>
         {countsLabel && (
           <PreviewCard.Subtitle enableLink={false}>
             {countsLabel}

@@ -453,7 +453,6 @@
         "genre": "장르"
       },
       "genre": {
-        "search": "장르 찾기…",
         "label": "장르 선택…",
         "loading": "장르 로딩 중…",
         "notFound": "장르 검색 결과 없음."
@@ -723,6 +722,10 @@
     }
   },
   "genre": {
+    "headline": "Genre",
+    "details": {
+      "noSongList": "This genre does not have any songs."
+    },
     "list": {
       "empty": {
         "title": "No genres found",
@@ -732,6 +735,3 @@
     }
   }
 }
-
-
-
