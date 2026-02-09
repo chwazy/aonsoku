@@ -8,6 +8,7 @@ import { PlaylistFallback } from '@/app/components/fallbacks/playlist-fallbacks'
 import { BadgesData } from '@/app/components/header-info'
 import ListWrapper from '@/app/components/list-wrapper'
 import { DataTableList } from '@/app/components/ui/data-table-list'
+import { useGenreCoverArt } from '@/app/hooks/use-genre-cover-art'
 import ErrorPage from '@/app/pages/error-page'
 import { songsColumns } from '@/app/tables/songs-columns'
 import { getGenreSongsPage } from '@/queries/songs'
@@ -24,6 +25,11 @@ export default function Genre() {
   const { t } = useTranslation()
   const { setSongList } = usePlayerActions()
   const [isFetchingAll, setIsFetchingAll] = useState(false)
+  const { coverArtId } = useGenreCoverArt(
+    decodedGenre,
+    decodedGenre.length > 0,
+    true,
+  )
 
   const columns = songsColumns()
 
@@ -138,7 +144,7 @@ export default function Genre() {
       <ImageHeader
         type={t('genre.headline')}
         title={decodedGenre}
-        coverArtId={undefined}
+        coverArtId={coverArtId}
         coverArtType="album"
         coverArtSize="700"
         coverArtAlt={decodedGenre}
